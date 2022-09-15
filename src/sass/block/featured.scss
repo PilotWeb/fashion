@@ -70,4 +70,48 @@
             cursor: pointer;
         };
     }
+    .owl-nav {
+            
+        button.owl-prev, button.owl-next{
+            background: url('../img/sprite-arrow2.png') 0 0 no-repeat;
+            width: 49px; 
+            height: 49px;  
+            border: none;
+            box-shadow: none;
+            position: absolute;            
+            top: calc(50% - 49px);
+            cursor: pointer;
+            transform: translateY(-50%);
+        }
+        button.owl-prev {
+            left: -55px;
+            &:hover {
+                background-position: 0 -49px;
+            }
+        }
+        button.owl-next {
+            background: url('../img/sprite-arrow2.png') -49px 0 no-repeat;
+            left: auto;
+            right: -55px;
+
+            &:hover {
+                background-position: -49px -49px;
+            }
+
+        }
+        
+    }
+}
+
+@media (max-width: 1300px) {
+    .featured {
+        width: calc(100% - 100px);
+        margin: 90px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .featured {
+        margin: 25px auto;;
+    }
 }
