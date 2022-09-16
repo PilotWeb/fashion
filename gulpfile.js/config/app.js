@@ -9,7 +9,11 @@ module.exports = {
         collapseWhitespace: isProd
       },
     pug: {
-        pretty: isDev        
+        pretty: isDev,
+        data:{
+          news: require('../data/news.json')
+        }
+
     },
     webpack: {
       mode: isProd ? 'production' : "development"

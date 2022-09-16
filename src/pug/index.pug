@@ -6,9 +6,13 @@ block page
   .wrap.content
     include chunk/categories
     include chunk/offers
+    -let banner=0
     include chunk/banner
     include chunk/products
     include chunk/featured
+    - banner=1
+    include chunk/banner
+    include chunk/blog
 
 
 

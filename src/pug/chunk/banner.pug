@@ -1,5 +1,6 @@
-.banner
+
+div(class= banner===1? "banner banner--left" : "banner")    
   .banner__information 
-    p.banner__title WE OFFER BRAND NEW TITLE
-      p SIGN UP NOW AND GET 50% OFF
-      a(href="") SEE FULL COLLECTION
+    p.banner__title=news[banner].title
+      p=news[banner].subtitle
+      a(href="")=news[banner].btn

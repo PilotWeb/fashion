@@ -1,11 +1,13 @@
 [
     {
-        "name": "Первая новость",
-        "body": "Текст первой новости"
+        "title": "WE OFFER BRAND NEW STYLES",
+        "subtitle": "SIGN UP NOW AND GET 50% OFF",
+        "btn": "SEE FULL COLLECTION"
     },
     {
-        "name": "Вторая новость",
-        "body": "Текст Второй новости"
+        "title": "subscribe to our newsletter",
+        "subtitle": "SIGN UP NOW AND GET 75% OFF",
+        "btn": "SIGN UP NOW"
     },
     {
         "name": "Третья новость",
