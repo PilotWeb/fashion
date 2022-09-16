@@ -22,7 +22,11 @@ header
             a(href="#") 
               img(src="img/cart.png", alt="")
           .icons__search 
-            img.icons__img(src="img/search.png", alt="")
+            form(action="#" method="post")               
+              img.icons__img(src="img/search.png", alt="#")
+              button(type="submit")
+                img(src="img/search.png", alt="#")
+              input(type="text" name="search" placeholder="Поиск...") 
     .slider
       .owl-carousel.owl-theme
         .slider__item
